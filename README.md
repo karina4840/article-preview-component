@@ -7,7 +7,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://karina4840.github.io/article-preview-component/> Live site </a>
+    <a href="https://karina4840.github.io/article-preview-component/"> Live site </a>
     <span> | </span>
     <a href="https://www.frontendmentor.io/solutions/article-preview-component-challenge-CvZMPVOXW"> Solution </a>
     <span> | </span>
