@@ -39,18 +39,22 @@
 ## Overview
 ### The challenge
 
-//
+Users should be able to:
+
+- View the optimal layout for the component depending on their device's screen size
+- See the social media share links when they click the share icon
                                                           
 ### Screenshot
 - Desktop <br>
-   <img src="https://github.com/karina4840/tip-calculator/blob/main/images/desktop-preview.jpg?raw=true" width=400>  
-- Desktop <br>
-<img src="https://github.com/karina4840/tip-calculator/blob/main/images/mobile-design.jpg?raw=true" height=500>                                                  - Active elements <br>
-   <img src="https://github.com/karina4840/tip-calculator/blob/main/images/active-states.jpg?raw=true" width=400>
+   <img src="https://github.com/karina4840/article-preview-component/blob/main/design/desktop-design.jpg" width=400>  
+- Mobile <br>
+<img src="https://github.com/karina4840/article-preview-component/blob/main/design/mobile-design.jpg" height=500>               
+- Active elements <br>
+   <img src="https://github.com/karina4840/article-preview-component/blob/main/design/desktop-active-state.jpg" width=400>
 
 ### Built with
 - Semantic HTML5 markup
-- SASS
+- SAAS																																																			
 - CSS custom properties
 - Flexbox
 - CSS Grid
