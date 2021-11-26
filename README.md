@@ -7,11 +7,11 @@
 
 <div align="center">
   <h3>
-    <a href="#> Live site </a>
+    <a href="https://karina4840.github.io/article-preview-component/> Live site </a>
     <span> | </span>
-    <a href="#"> Solution </a>
+    <a href="https://www.frontendmentor.io/solutions/article-preview-component-challenge-CvZMPVOXW"> Solution </a>
     <span> | </span>
-    <a href="#"> Challenge </a>
+    <a href="https://www.frontendmentor.io/challenges/article-preview-component-dYBN_pYFT"> Challenge </a>
     <br>
   </h3>                                                             
 </div>
@@ -46,11 +46,11 @@ Users should be able to:
                                                           
 ### Screenshot
 - Desktop <br>
-   <img src="https://github.com/karina4840/article-preview-component/blob/main/design/desktop-design.jpg" width=400>  
+   <img src="https://github.com/karina4840/article-preview-component/blob/main/design/desktop-design.jpg?raw=true" width=400>  
 - Mobile <br>
-<img src="https://github.com/karina4840/article-preview-component/blob/main/design/mobile-design.jpg" height=500>               
+   <img src="https://github.com/karina4840/article-preview-component/blob/main/design/mobile-design.jpg?raw=true" height=500>
 - Active elements <br>
-   <img src="https://github.com/karina4840/article-preview-component/blob/main/design/desktop-active-state.jpg" width=400>
+   <img src="https://github.com/karina4840/article-preview-component/blob/main/design/desktop-active-state.jpg?raw=true" width=400>
 
 ### Built with
 - Semantic HTML5 markup
