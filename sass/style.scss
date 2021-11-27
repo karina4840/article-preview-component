@@ -104,7 +104,7 @@ body {
 .share-button {
     width: 40px;
     height: 40px;
-    margin-left: 8%;
+    margin-left: 10px;
     background-color: $lightGrayishBlue;
     border-radius: 50px;
     display: flex;
@@ -113,8 +113,16 @@ body {
     cursor: pointer;
 }
 
+.dark-bg {
+    background-color: $desaturatedDarkBlue;
+}
+
 .share {
     height: 15px;
+}
+
+.icon-hidden {
+    display: none;
 }
 
 .attribution {
@@ -137,7 +145,7 @@ body {
 .hidden-big {
     display: none;
 }
-// -----------------------------------
+
 
 .share-popup-small {
     width: 100%;
@@ -197,19 +205,19 @@ body {
 }
 
 .share-popup-big {
-    width: 275px;
-    height: 75px;
-    top: 51%;
-    right: 5%;
+    width: 260px;
+    height: 70px;
+    top: 425px;
+    right: 177px;
     position: absolute;
     z-index: 2;
     background-image: url(/images/share-bg.svg);
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
 
 
     .share-container-big {
-        padding: 5%;
+        padding: 17px 0;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -235,13 +243,67 @@ body {
         margin: 0 10px;
     }
 }
+
+// -----------------------------------
+
 // BREAKPOINTS 
 
-@media only screen and (min-width: 768px) {
+// XS MOBILE 
+@media only screen and (max-width: 380px) {
+    .comment-section {
+        padding: 30px;
+        padding-bottom: 0;
+        text-align: left;
+        font-size: $fontsizeMain;
+    }
+    .share-popup-small {
+    .share-text {
+        font-size: 13px;
+        margin: 0 5px;
+    }
+
+    .share-logos {
+        margin-right: 5px;
+        justify-content: center;
+    }
+
+    .share-logo {
+        height: 20px;
+        margin: 0 5px;
+        }
+
+    .share-button-popup {
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        background-color: $desaturatedDarkBlue;
+        cursor: pointer;
+}
+}
+}
+
+// TABLET
+@media only screen and (min-width: 750px){
+    .card-container {
+        width: 600px;
+        height: 500px;
+    }
+
+    .share-popup-big {
+        top: 515px;
+        right: 14px;
+    }
+}
+
+// DESKTOP BIG
+@media only screen and (min-width: 1020px) {
 
     .card-container {
-        width: 70%;
-        height: 335px;
+        width: 65%;
+        height: 350px;
         box-shadow: 1px 1px 50px $grayishWhite;
         overflow: hidden;
         position: relative;
@@ -267,7 +329,7 @@ body {
     }
 
     .text-primary {
-        font-size: 18px;
+        font-size: 22px;
         letter-spacing: 1px;
         margin-bottom: 15px;
         line-height: 1.5;
@@ -279,6 +341,41 @@ body {
     }
 
     .pic-name-share {
-    margin-bottom: 0;
+        margin-bottom: 0;
+    }
+
+    .share-popup-big {
+        top: 457px;
+        right: 104px;
+    }
+}
+
+// DESKTOP LARGE 
+@media only screen and (min-width: 1439px) {
+
+    .card-container {
+        width: 60%;
+        height: 330px;
+    }
+
+    .share-popup-big {
+        top: 425px;
+        right: 214px;
+
+    }
+}
+
+// DESKTOP EXTRA LARGE
+@media only screen and (min-width: 2000px) {
+
+    .card-container {
+        width: 40%;
+        height: 300px;
+    }
+
+    .share-popup-big {
+        top: 412px;
+        right: 694px;
+
     }
 }
