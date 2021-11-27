@@ -21,7 +21,7 @@ shareButtonLight.classList.remove('dark-bg');
 // click function for the button
 shareButtonLight.addEventListener('click', function(){
     // mobile screens 
-    if (window.innerWidth > 425 ) {
+    if (window.innerWidth > 900 ) {
         // showing the pop-up window
         sharePopupBig.classList.remove('hidden-big')
 // changing the colors of the button when clicked
@@ -38,7 +38,7 @@ shareButtonLight.addEventListener('click', function(){
         });
     } 
 // desktop screens 
-    if (window.innerWidth <= 425 ) {
+    if (window.innerWidth <= 900 ) {
         sharePopupSmall.classList.remove('hidden-small')
         body.addEventListener('mouseup', function () {
             sharePopupSmall.classList.add('hidden-small')
