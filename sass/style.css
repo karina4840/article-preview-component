@@ -381,6 +381,8 @@ body {
     position: relative;
     top: 20px;
     left: 365px;
+    -webkit-box-shadow: 5px 10px 20px 0px #d9dcde;
+            box-shadow: 5px 10px 20px 0px #d9dcde;
   }
 }
 /*# sourceMappingURL=style.css.map */
