@@ -207,38 +207,53 @@ body {
 
 .share-popup-big {
     width: 260px;
-    height: 70px;
-    background-image: url(/images/share-bg.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-
+    height: 55px;
+    background-color: $veryDarkGrayishBlue;
+    border-radius: 10px;
+    
 
     .share-container-big {
         padding: 17px 0;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
-    .share-text-big {
-        text-transform: uppercase;
-        color: $grayishBlue;
-        font-size: 13px;
-        letter-spacing: 5px;
-        margin-right: 5%;
-    }
-
-    .share-logos-big {
+    .row-container {
         display: flex;
         flex-direction: row;
-        justify-content: center;
+
+        .share-text-big {
+            text-transform: uppercase;
+            color: $grayishBlue;
+            font-size: 13px;
+            letter-spacing: 5px;
+            margin-right: 5%;
+        }
+    
+        .share-logos-big {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+    
+        .share-logo-big {
+            height: 20px;
+            margin: 0 10px;
+        }
+    }
+    .triangle-down {
+        width: 0;
+        height: 0;
+        position: relative;
+        top: 18px;
+        border-left: 20px solid transparent;
+        border-right: 20px solid transparent;
+        border-top: 20px solid $veryDarkGrayishBlue;
     }
 
-    .share-logo-big {
-        height: 20px;
-        margin: 0 10px;
-    }
+    
 }
 
 // -----------------------------------
@@ -293,7 +308,7 @@ body {
 
     .share-popup-big {
         position: relative;
-        top: 30px;
+        top: 20px;
         left: 365px;
     }
 }

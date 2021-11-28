@@ -267,10 +267,9 @@ body {
 
 .share-popup-big {
   width: 260px;
-  height: 70px;
-  background-image: url(/images/share-bg.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  height: 55px;
+  background-color: #48556a;
+  border-radius: 10px;
 }
 
 .share-popup-big .share-container-big {
@@ -278,10 +277,10 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -290,7 +289,17 @@ body {
           align-items: center;
 }
 
-.share-popup-big .share-text-big {
+.share-popup-big .row-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.share-popup-big .row-container .share-text-big {
   text-transform: uppercase;
   color: #9eafc2;
   font-size: 13px;
@@ -298,7 +307,7 @@ body {
   margin-right: 5%;
 }
 
-.share-popup-big .share-logos-big {
+.share-popup-big .row-container .share-logos-big {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -311,9 +320,19 @@ body {
           justify-content: center;
 }
 
-.share-popup-big .share-logo-big {
+.share-popup-big .row-container .share-logo-big {
   height: 20px;
   margin: 0 10px;
+}
+
+.share-popup-big .triangle-down {
+  width: 0;
+  height: 0;
+  position: relative;
+  top: 18px;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #48556a;
 }
 
 @media only screen and (min-width: 899px) {
@@ -360,7 +379,7 @@ body {
   }
   .share-popup-big {
     position: relative;
-    top: 30px;
+    top: 20px;
     left: 365px;
   }
 }
